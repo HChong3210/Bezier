@@ -7,25 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4720F66C1D4EF35100E79967 /* id_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F6671D4EF35100E79967 /* id_1.png */; };
+		4720F66D1D4EF35100E79967 /* id_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F6681D4EF35100E79967 /* id_2.png */; };
+		4720F66E1D4EF35100E79967 /* id_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F6691D4EF35100E79967 /* id_3.png */; };
+		4720F66F1D4EF35100E79967 /* id_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F66A1D4EF35100E79967 /* id_4.png */; };
+		4720F6701D4EF35100E79967 /* id_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F66B1D4EF35100E79967 /* id_5.png */; };
 		4794269B1D49FB5B00B06307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794269A1D49FB5B00B06307 /* main.m */; };
 		4794269E1D49FB5B00B06307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794269D1D49FB5B00B06307 /* AppDelegate.m */; };
-		479426A11D49FB5B00B06307 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426A01D49FB5B00B06307 /* ViewController.m */; };
+		479426A11D49FB5B00B06307 /* MyViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426A01D49FB5B00B06307 /* MyViewController1.m */; };
 		479426A41D49FB5B00B06307 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479426A21D49FB5B00B06307 /* Main.storyboard */; };
 		479426A61D49FB5C00B06307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479426A51D49FB5C00B06307 /* Assets.xcassets */; };
 		479426A91D49FB5C00B06307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479426A71D49FB5C00B06307 /* LaunchScreen.storyboard */; };
+		479426B11D49FB9900B06307 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479426B01D49FB9900B06307 /* Launch Screen.storyboard */; };
+		479426B41D49FBED00B06307 /* DrugRemoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426B31D49FBED00B06307 /* DrugRemoveLabel.m */; };
+		479426B71D4A04DA00B06307 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426B61D4A04DA00B06307 /* BezierView.m */; };
+		479426BC1D4B014000B06307 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426BB1D4B014000B06307 /* MyTableViewController.m */; };
+		479426C21D4B071700B06307 /* MyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426C11D4B071700B06307 /* MyViewController2.m */; };
+		479426C51D4B2A5B00B06307 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426C41D4B2A5B00B06307 /* ProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4720F6671D4EF35100E79967 /* id_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_1.png; sourceTree = "<group>"; };
+		4720F6681D4EF35100E79967 /* id_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_2.png; sourceTree = "<group>"; };
+		4720F6691D4EF35100E79967 /* id_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_3.png; sourceTree = "<group>"; };
+		4720F66A1D4EF35100E79967 /* id_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_4.png; sourceTree = "<group>"; };
+		4720F66B1D4EF35100E79967 /* id_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_5.png; sourceTree = "<group>"; };
 		479426961D49FB5B00B06307 /* JustTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4794269A1D49FB5B00B06307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4794269C1D49FB5B00B06307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4794269D1D49FB5B00B06307 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4794269F1D49FB5B00B06307 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		479426A01D49FB5B00B06307 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4794269F1D49FB5B00B06307 /* MyViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController1.h; sourceTree = "<group>"; };
+		479426A01D49FB5B00B06307 /* MyViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController1.m; sourceTree = "<group>"; };
 		479426A31D49FB5B00B06307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		479426A51D49FB5C00B06307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		479426A81D49FB5C00B06307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479426AA1D49FB5C00B06307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		479426B01D49FB9900B06307 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		479426B21D49FBED00B06307 /* DrugRemoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugRemoveLabel.h; sourceTree = "<group>"; };
+		479426B31D49FBED00B06307 /* DrugRemoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugRemoveLabel.m; sourceTree = "<group>"; };
+		479426B51D4A04DA00B06307 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		479426B61D4A04DA00B06307 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		479426BA1D4B014000B06307 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		479426BB1D4B014000B06307 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		479426C01D4B071700B06307 /* MyViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController2.h; sourceTree = "<group>"; };
+		479426C11D4B071700B06307 /* MyViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController2.m; sourceTree = "<group>"; };
+		479426C31D4B2A5B00B06307 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
+		479426C41D4B2A5B00B06307 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +66,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4720F6711D4EF35600E79967 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				4720F6671D4EF35100E79967 /* id_1.png */,
+				4720F6681D4EF35100E79967 /* id_2.png */,
+				4720F6691D4EF35100E79967 /* id_3.png */,
+				4720F66A1D4EF35100E79967 /* id_4.png */,
+				4720F66B1D4EF35100E79967 /* id_5.png */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
 		4794268D1D49FB5B00B06307 = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +99,11 @@
 			children = (
 				4794269C1D49FB5B00B06307 /* AppDelegate.h */,
 				4794269D1D49FB5B00B06307 /* AppDelegate.m */,
-				4794269F1D49FB5B00B06307 /* ViewController.h */,
-				479426A01D49FB5B00B06307 /* ViewController.m */,
-				479426A21D49FB5B00B06307 /* Main.storyboard */,
-				479426A51D49FB5C00B06307 /* Assets.xcassets */,
-				479426A71D49FB5C00B06307 /* LaunchScreen.storyboard */,
-				479426AA1D49FB5C00B06307 /* Info.plist */,
+				479426BA1D4B014000B06307 /* MyTableViewController.h */,
+				479426BB1D4B014000B06307 /* MyTableViewController.m */,
+				479426BD1D4B069D00B06307 /* 1 */,
+				479426BF1D4B06B700B06307 /* 2 */,
+				479426BE1D4B06AC00B06307 /* 3 */,
 				479426991D49FB5B00B06307 /* Supporting Files */,
 			);
 			path = JustTest;
@@ -74,9 +112,46 @@
 		479426991D49FB5B00B06307 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4720F6711D4EF35600E79967 /* Animation */,
+				479426A21D49FB5B00B06307 /* Main.storyboard */,
+				479426A51D49FB5C00B06307 /* Assets.xcassets */,
+				479426A71D49FB5C00B06307 /* LaunchScreen.storyboard */,
+				479426AA1D49FB5C00B06307 /* Info.plist */,
+				479426B01D49FB9900B06307 /* Launch Screen.storyboard */,
 				4794269A1D49FB5B00B06307 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		479426BD1D4B069D00B06307 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				4794269F1D49FB5B00B06307 /* MyViewController1.h */,
+				479426A01D49FB5B00B06307 /* MyViewController1.m */,
+				479426B51D4A04DA00B06307 /* BezierView.h */,
+				479426B61D4A04DA00B06307 /* BezierView.m */,
+			);
+			name = 1;
+			sourceTree = "<group>";
+		};
+		479426BE1D4B06AC00B06307 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+				479426B21D49FBED00B06307 /* DrugRemoveLabel.h */,
+				479426B31D49FBED00B06307 /* DrugRemoveLabel.m */,
+			);
+			name = 3;
+			sourceTree = "<group>";
+		};
+		479426BF1D4B06B700B06307 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+				479426C01D4B071700B06307 /* MyViewController2.h */,
+				479426C11D4B071700B06307 /* MyViewController2.m */,
+				479426C31D4B2A5B00B06307 /* ProgressView.h */,
+				479426C41D4B2A5B00B06307 /* ProgressView.m */,
+			);
+			name = 2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +211,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4720F66E1D4EF35100E79967 /* id_3.png in Resources */,
 				479426A91D49FB5C00B06307 /* LaunchScreen.storyboard in Resources */,
+				4720F6701D4EF35100E79967 /* id_5.png in Resources */,
+				4720F66C1D4EF35100E79967 /* id_1.png in Resources */,
+				4720F66F1D4EF35100E79967 /* id_4.png in Resources */,
 				479426A61D49FB5C00B06307 /* Assets.xcassets in Resources */,
+				479426B11D49FB9900B06307 /* Launch Screen.storyboard in Resources */,
 				479426A41D49FB5B00B06307 /* Main.storyboard in Resources */,
+				4720F66D1D4EF35100E79967 /* id_2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				479426A11D49FB5B00B06307 /* ViewController.m in Sources */,
+				479426B41D49FBED00B06307 /* DrugRemoveLabel.m in Sources */,
+				479426C51D4B2A5B00B06307 /* ProgressView.m in Sources */,
+				479426C21D4B071700B06307 /* MyViewController2.m in Sources */,
+				479426BC1D4B014000B06307 /* MyTableViewController.m in Sources */,
+				479426A11D49FB5B00B06307 /* MyViewController1.m in Sources */,
+				479426B71D4A04DA00B06307 /* BezierView.m in Sources */,
 				4794269E1D49FB5B00B06307 /* AppDelegate.m in Sources */,
 				4794269B1D49FB5B00B06307 /* main.m in Sources */,
 			);
@@ -268,7 +354,7 @@
 				INFOPLIST_FILE = JustTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HC.JustTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JustTest;
 			};
 			name = Debug;
 		};
@@ -279,7 +365,7 @@
 				INFOPLIST_FILE = JustTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HC.JustTest;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = JustTest;
 			};
 			name = Release;
 		};
@@ -302,6 +388,7 @@
 				479426AF1D49FB5C00B06307 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
