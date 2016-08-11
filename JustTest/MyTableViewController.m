@@ -9,6 +9,7 @@
 #import "MyTableViewController.h"
 #import "MyViewController1.h"
 #import "MyViewController2.h"
+#import "MyViewController3.h"
 
 @interface MyTableViewController ()
 
@@ -51,6 +52,10 @@
     }
     if (indexPath.row == 1) {
         MyViewController2 *vc = [[MyViewController2 alloc] init];
+        [self.navigationController pushViewController:vc animated:YES];
+    }
+    if (indexPath.row == 2) {
+        MyViewController3 *vc = [[MyViewController3 alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
     }
     

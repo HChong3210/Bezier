@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F8F95B490950718C1197A54 /* libPods-JustTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 030B6AB7CAC3220FD0C11305 /* libPods-JustTest.a */; };
 		4720F66C1D4EF35100E79967 /* id_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F6671D4EF35100E79967 /* id_1.png */; };
 		4720F66D1D4EF35100E79967 /* id_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F6681D4EF35100E79967 /* id_2.png */; };
 		4720F66E1D4EF35100E79967 /* id_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F6691D4EF35100E79967 /* id_3.png */; };
 		4720F66F1D4EF35100E79967 /* id_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F66A1D4EF35100E79967 /* id_4.png */; };
 		4720F6701D4EF35100E79967 /* id_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4720F66B1D4EF35100E79967 /* id_5.png */; };
+		4720F6741D4F1D5D00E79967 /* MyViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720F6731D4F1D5D00E79967 /* MyViewController3.m */; };
+		4720F67A1D4F429500E79967 /* DragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720F6791D4F429500E79967 /* DragView.m */; };
+		4720F67D1D4F44E100E79967 /* DrugRemoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4720F67C1D4F44E100E79967 /* DrugRemoveLabel.m */; };
 		4794269B1D49FB5B00B06307 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794269A1D49FB5B00B06307 /* main.m */; };
 		4794269E1D49FB5B00B06307 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4794269D1D49FB5B00B06307 /* AppDelegate.m */; };
 		479426A11D49FB5B00B06307 /* MyViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426A01D49FB5B00B06307 /* MyViewController1.m */; };
@@ -19,19 +23,27 @@
 		479426A61D49FB5C00B06307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 479426A51D49FB5C00B06307 /* Assets.xcassets */; };
 		479426A91D49FB5C00B06307 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479426A71D49FB5C00B06307 /* LaunchScreen.storyboard */; };
 		479426B11D49FB9900B06307 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 479426B01D49FB9900B06307 /* Launch Screen.storyboard */; };
-		479426B41D49FBED00B06307 /* DrugRemoveLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426B31D49FBED00B06307 /* DrugRemoveLabel.m */; };
 		479426B71D4A04DA00B06307 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426B61D4A04DA00B06307 /* BezierView.m */; };
 		479426BC1D4B014000B06307 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426BB1D4B014000B06307 /* MyTableViewController.m */; };
 		479426C21D4B071700B06307 /* MyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426C11D4B071700B06307 /* MyViewController2.m */; };
 		479426C51D4B2A5B00B06307 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 479426C41D4B2A5B00B06307 /* ProgressView.m */; };
+		47CF32371D5348FD003F8A77 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47CF32361D5348FD003F8A77 /* TestView.m */; };
+		47EF7E521D54424900BFE299 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7E511D54424900BFE299 /* Common.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030B6AB7CAC3220FD0C11305 /* libPods-JustTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JustTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4720F6671D4EF35100E79967 /* id_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_1.png; sourceTree = "<group>"; };
 		4720F6681D4EF35100E79967 /* id_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_2.png; sourceTree = "<group>"; };
 		4720F6691D4EF35100E79967 /* id_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_3.png; sourceTree = "<group>"; };
 		4720F66A1D4EF35100E79967 /* id_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_4.png; sourceTree = "<group>"; };
 		4720F66B1D4EF35100E79967 /* id_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = id_5.png; sourceTree = "<group>"; };
+		4720F6721D4F1D5D00E79967 /* MyViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController3.h; sourceTree = "<group>"; };
+		4720F6731D4F1D5D00E79967 /* MyViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController3.m; sourceTree = "<group>"; };
+		4720F6781D4F429500E79967 /* DragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragView.h; sourceTree = "<group>"; };
+		4720F6791D4F429500E79967 /* DragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragView.m; sourceTree = "<group>"; };
+		4720F67B1D4F44E100E79967 /* DrugRemoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugRemoveLabel.h; sourceTree = "<group>"; };
+		4720F67C1D4F44E100E79967 /* DrugRemoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugRemoveLabel.m; sourceTree = "<group>"; };
 		479426961D49FB5B00B06307 /* JustTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4794269A1D49FB5B00B06307 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4794269C1D49FB5B00B06307 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,8 +55,6 @@
 		479426A81D49FB5C00B06307 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		479426AA1D49FB5C00B06307 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		479426B01D49FB9900B06307 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		479426B21D49FBED00B06307 /* DrugRemoveLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugRemoveLabel.h; sourceTree = "<group>"; };
-		479426B31D49FBED00B06307 /* DrugRemoveLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugRemoveLabel.m; sourceTree = "<group>"; };
 		479426B51D4A04DA00B06307 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
 		479426B61D4A04DA00B06307 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
 		479426BA1D4B014000B06307 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
@@ -53,6 +63,12 @@
 		479426C11D4B071700B06307 /* MyViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController2.m; sourceTree = "<group>"; };
 		479426C31D4B2A5B00B06307 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		479426C41D4B2A5B00B06307 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
+		47CF32351D5348FD003F8A77 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		47CF32361D5348FD003F8A77 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		47EF7E501D54424900BFE299 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		47EF7E511D54424900BFE299 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		DC7F47E7717F4A5CBD6CB049 /* Pods-JustTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JustTest/Pods-JustTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E6453E5C62C228BAC93C1C11 /* Pods-JustTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JustTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-JustTest/Pods-JustTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8F95B490950718C1197A54 /* libPods-JustTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 			children = (
 				479426981D49FB5B00B06307 /* JustTest */,
 				479426971D49FB5B00B06307 /* Products */,
+				4D06CC793401CA00E09D87EC /* Pods */,
+				5DD8403477FC5111FF03FA3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +120,13 @@
 				4794269D1D49FB5B00B06307 /* AppDelegate.m */,
 				479426BA1D4B014000B06307 /* MyTableViewController.h */,
 				479426BB1D4B014000B06307 /* MyTableViewController.m */,
+				47EF7E501D54424900BFE299 /* Common.h */,
+				47EF7E511D54424900BFE299 /* Common.m */,
 				479426BD1D4B069D00B06307 /* 1 */,
 				479426BF1D4B06B700B06307 /* 2 */,
 				479426BE1D4B06AC00B06307 /* 3 */,
+				4720F6781D4F429500E79967 /* DragView.h */,
+				4720F6791D4F429500E79967 /* DragView.m */,
 				479426991D49FB5B00B06307 /* Supporting Files */,
 			);
 			path = JustTest;
@@ -130,6 +153,8 @@
 				479426A01D49FB5B00B06307 /* MyViewController1.m */,
 				479426B51D4A04DA00B06307 /* BezierView.h */,
 				479426B61D4A04DA00B06307 /* BezierView.m */,
+				4720F67B1D4F44E100E79967 /* DrugRemoveLabel.h */,
+				4720F67C1D4F44E100E79967 /* DrugRemoveLabel.m */,
 			);
 			name = 1;
 			sourceTree = "<group>";
@@ -137,8 +162,10 @@
 		479426BE1D4B06AC00B06307 /* 3 */ = {
 			isa = PBXGroup;
 			children = (
-				479426B21D49FBED00B06307 /* DrugRemoveLabel.h */,
-				479426B31D49FBED00B06307 /* DrugRemoveLabel.m */,
+				4720F6721D4F1D5D00E79967 /* MyViewController3.h */,
+				4720F6731D4F1D5D00E79967 /* MyViewController3.m */,
+				47CF32351D5348FD003F8A77 /* TestView.h */,
+				47CF32361D5348FD003F8A77 /* TestView.m */,
 			);
 			name = 3;
 			sourceTree = "<group>";
@@ -154,6 +181,23 @@
 			name = 2;
 			sourceTree = "<group>";
 		};
+		4D06CC793401CA00E09D87EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC7F47E7717F4A5CBD6CB049 /* Pods-JustTest.debug.xcconfig */,
+				E6453E5C62C228BAC93C1C11 /* Pods-JustTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5DD8403477FC5111FF03FA3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030B6AB7CAC3220FD0C11305 /* libPods-JustTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -161,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 479426AD1D49FB5C00B06307 /* Build configuration list for PBXNativeTarget "JustTest" */;
 			buildPhases = (
+				5CCE51C571B30EB148AC0CF2 /* [CP] Check Pods Manifest.lock */,
 				479426921D49FB5B00B06307 /* Sources */,
 				479426931D49FB5B00B06307 /* Frameworks */,
 				479426941D49FB5B00B06307 /* Resources */,
+				C91E0D880900D03DE3CAAFB8 /* [CP] Embed Pods Frameworks */,
+				A50D1A49952AE0A8D1A30ED8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -225,19 +272,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5CCE51C571B30EB148AC0CF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A50D1A49952AE0A8D1A30ED8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustTest/Pods-JustTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C91E0D880900D03DE3CAAFB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JustTest/Pods-JustTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		479426921D49FB5B00B06307 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				479426B41D49FBED00B06307 /* DrugRemoveLabel.m in Sources */,
+				47EF7E521D54424900BFE299 /* Common.m in Sources */,
+				4720F67D1D4F44E100E79967 /* DrugRemoveLabel.m in Sources */,
 				479426C51D4B2A5B00B06307 /* ProgressView.m in Sources */,
+				4720F6741D4F1D5D00E79967 /* MyViewController3.m in Sources */,
 				479426C21D4B071700B06307 /* MyViewController2.m in Sources */,
 				479426BC1D4B014000B06307 /* MyTableViewController.m in Sources */,
 				479426A11D49FB5B00B06307 /* MyViewController1.m in Sources */,
+				47CF32371D5348FD003F8A77 /* TestView.m in Sources */,
 				479426B71D4A04DA00B06307 /* BezierView.m in Sources */,
 				4794269E1D49FB5B00B06307 /* AppDelegate.m in Sources */,
 				4794269B1D49FB5B00B06307 /* main.m in Sources */,
+				4720F67A1D4F429500E79967 /* DragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +448,7 @@
 		};
 		479426AE1D49FB5C00B06307 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC7F47E7717F4A5CBD6CB049 /* Pods-JustTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JustTest/Info.plist;
@@ -360,6 +460,7 @@
 		};
 		479426AF1D49FB5C00B06307 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6453E5C62C228BAC93C1C11 /* Pods-JustTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JustTest/Info.plist;
